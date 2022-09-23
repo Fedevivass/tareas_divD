@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : entrada-salida.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setbuf(stdout, NULL);
+	int numero;
+
+	const float PO = 3.14;
+
+	numero = 4;
+
+
+	printf ("El valor de numero es de: %d", numero);
+
+	printf ("El valor de po es de : %.2f", PO );
+
+
+
+}

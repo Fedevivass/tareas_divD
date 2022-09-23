@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : hola.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	setbuf(stdout, NULL);
+
+	int nota;
+
+	printf("Ingrese una nota entre 1 y 10");
+	scanf ("%d", &nota);
+	while (nota < 1 || nota > 10)
+	{
+		printf("ERROR, reingrese una nota entre 1 y 10");
+		scanf ("%d", &nota);
+	}
+
+
+	printf("La nota ingresada es : %d", &nota);
+
+}

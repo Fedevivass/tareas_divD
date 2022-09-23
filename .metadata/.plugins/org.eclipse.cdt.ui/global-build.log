@@ -1,0 +1,6 @@
+23:28:08 **** Incremental Build of configuration Debug for project hola mundoo ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\hola mundoo.o" "..\\src\\hola mundoo.c" 
+gcc -o "hola mundoo.exe" "src\\hola mundoo.o" 
+Info: Nothing to build for hola mundoo
+Info: Nothing to build for hola mundoo

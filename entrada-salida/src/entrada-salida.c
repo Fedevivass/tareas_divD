@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : entrada-salida.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#define PI 3.14
+
+int main(void) {
+	setbuf(stdout, NULL);
+	int numero;
+
+	numero = 4;
+
+
+	printf ("El valor de numero es de: %d ", numero);
+
+
+	printf ("El valor de PI es de : %.2f ", PI );
+
+
+
+}
